@@ -13,4 +13,5 @@ Functions thresholding\_\*\_l2_norm compute the l_2 norm between the unpruned an
 Functions AB_matrices\_\* generate the intermediate representations needed to train FeTa, for different architectures.
 
 fera_main.py corresponds to the implementation of the FeTa algorithm.
+
 utils.py includes the implementation of the Hard Thresholding algorithm.
