@@ -1,17 +1,17 @@
 # FeTa_Fully_Connected
 Experiments comparing FeTa and Hard Thresholding for fully connected architectures. We test fully connected architectures for three datasets Mnist, FashionMnist and Cifar10. 
 
-Functions train\_\* execute training of the DNNs. 
-Functions plot\_\* plot accuracy (%) vs sparsity (%) for the corresponding architecture and the two methods (FeTa and Hard Thresholding).
+<B>train\_\*<\B>: execute training of the DNNs. 
+<B>plot\_\*<\B>: plot accuracy (%) vs sparsity (%) for the corresponding architecture and the two methods (FeTa and Hard Thresholding).
 
-Functions feta\_\*\_accuracy compute the accuracy vs sparsity of FeTa for different architectures.
-Functions feta\_\*\_l2_norm compute the l_2 norm between the unpruned and pruned representations vs sparsity (%)for FeTa and different architectures.   
+<B>feta\_\*\_accuracy<\B>: compute the accuracy vs sparsity of FeTa for different architectures.
+<B>feta\_\*\_l2_norm<\B>: compute the l_2 norm between the unpruned and pruned representations vs sparsity (%)for FeTa and different architectures.   
 
-Functions thresholding\_\*\_accuracy compute the accuracy vs sparsity of Hard Thresholding for different architectures.
-Functions thresholding\_\*\_l2_norm compute the l_2 norm between the unpruned and pruned representations vs sparsity (%) for Hard Thresholding and different architectures.   
+<B>thresholding\_\*\_accuracy<\B>: compute the accuracy vs sparsity of Hard Thresholding for different architectures.
+<B>thresholding\_\*\_l2_norm<\B>: compute the l_2 norm between the unpruned and pruned representations vs sparsity (%) for Hard Thresholding and different architectures.   
 
-Functions AB_matrices\_\* generate the intermediate representations needed to train FeTa, for different architectures.
+<B>AB_matrices\_\*<\B>: generate the intermediate representations needed to train FeTa, for different architectures.
 
-fera_main.py corresponds to the implementation of the FeTa algorithm.
+<B>fera_main.py<\B>: corresponds to the implementation of the FeTa algorithm.
 
-utils.py includes the implementation of the Hard Thresholding algorithm.
+<B>utils.py<\B>: includes the implementation of the Hard Thresholding algorithm.
