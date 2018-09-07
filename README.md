@@ -17,4 +17,4 @@ Experiments comparing FeTa and Hard Thresholding for fully connected architectur
 
 <B>fera_main.py</B>: These function corresponds to the implementation of the FeTa algorithm.
 
-<B>utils.py</B>: These function includes the implementation of the Hard Thresholding algorithm.
+<B>utils.py</B>: This function includes the implementation of the Hard Thresholding algorithm.
