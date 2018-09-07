@@ -1,7 +1,7 @@
 # FeTa_Fully_Connected
 Experiments comparing FeTa and Hard Thresholding for fully connected architectures. We test fully connected architectures for three datasets Mnist, FashionMnist and Cifar10. 
 
-Functions train_* execute training of the DNNs. 
+Functions train_&ast execute training of the DNNs. 
 Functions plot_* plot accuracy (%) vs sparsity (%) for the corresponding architecture and the two methods (FeTa and Hard Thresholding).
 
 Functions feta_*_accuracy compute the accuracy vs sparsity of FeTa for different architectures.
