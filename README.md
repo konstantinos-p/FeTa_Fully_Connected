@@ -11,3 +11,6 @@ Functions thresholding\_\*\_accuracy compute the accuracy vs sparsity of Hard Th
 Functions thresholding\_\*\_l2_norm compute the l_2 norm between the unpruned and pruned representations vs sparsity (%) for Hard Thresholding and different architectures.   
 
 Functions AB_matrices\_\* generate the intermediate representations needed to train FeTa, for different architectures.
+
+fera_main.py corresponds to the implementation of the FeTa algorithm.
+utils.py includes the implementation of the Hard Thresholding algorithm.
