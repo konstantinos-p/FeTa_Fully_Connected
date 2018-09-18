@@ -1,5 +1,5 @@
 # FeTa_Fully_Connected
-Experiments comparing FeTa and Hard Thresholding for fully connected architectures. We test fully connected architectures for three datasets Mnist, FashionMnist and Cifar10. 
+Experiments comparing FeTa and Hard Thresholding for fully connected architectures. We test fully connected architectures for three datasets Mnist, FashionMnist and Cifar10. The paper for the FeTa algorithm can be found  in https://arxiv.org/pdf/1803.04239.pdf .
 
 <B>train\_\*</B>: These functions execute training of the DNNs. 
 
